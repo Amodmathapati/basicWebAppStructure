@@ -1,0 +1,31 @@
+
+body{
+    background-color:rgb(209, 209, 209);
+}
+
+
+.home-title::before{
+    content:url(../imgs/stars.svg); 
+    position:absolute;
+    left:20px;
+    top:-70px;
+    /* flex-wrap:wrap-reverse; */
+
+}
+
+.home-title::after{
+    content:url(../imgs/stars.svg);
+    position:absolute;
+    right:10px;
+    bottom:-70px;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+
+  }
+  
+ 
